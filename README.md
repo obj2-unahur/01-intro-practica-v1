@@ -11,18 +11,20 @@
     - [1.6. Matriz 3x3](#16-matriz-3x3)
     - [1.7. Matriz 10x10](#17-matriz-10x10)
 
-- [2. Clases](#2-Clases)
-    - [2.1. Ejercicio 1](#21-)
+- [2. Clases](#2-clases)
+    - [2.1. Administradores y vendedores](#21-administradores-y-vendedores)
 
-- [3. Arreglos](#3-Colecciones)
-    - [3.1. Ejercicio 1](#Ejercicio-3.1)
-    - [1.2. Ejercicio 2](#Ejercicio-1.2)
-    - [1.3. Ejercicio 3](#Ejercicio-1.3)
-    - [1.4. Ejercicio 4](#Ejercicio-1.4)
-    - [1.5. Ejercicio 5](#Ejercicio-1.5)
-    - [1.6. Ejercicio 6](#Ejercicio-1.6)
-    - [1.7. Ejercicio 7](#Ejercicio-1.7)
-    - [1.8. Ejercicio 8](#Ejercicio-1.8)
+- [3. Colecciones](#3-colecciones)
+    - [3.1 - Ticket](./01_ticket/).
+    - [3.2 - Empresas y empleados](./02_empresa_empleado/).
+    - [3.3 - Alumnos y asignaturas](./03_alumno_asignatura/).
+    - [3.4 - Cuenta bancaria](./04_cuenta_bancaria/).
+    - [3.5 - Personas](./05_personas/).
+    - [3.6 - Contactos de Whatsapp](./06_whatsapp/).
+    - [3.7 - Alarma](./07_alarma/).
+    - [3.8 - Empresas y empleados (con herencia)](./08_empresa_empleado/).
+    - [3.10 - Averías](./09_averias/).
+    - [3.11 - Alumnos y asignaturas 2.0](./10_alumno_asignatura/).
 <!-- /TOC -->
 
 ## 1. Arreglos
