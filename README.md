@@ -27,3 +27,39 @@ Usar un Array de tipo empleado para resolver este ejercicio.
 **Ejercicio 4**
 
 Resolver los ejercicios 2 y 3 utilizando ArrayList en lugar de arrays.
+
+# Ejercicio 5 - Temperaturas del día
+
+Pide al usuario las temperaturas de un día (un valor cada hora durante 24 horas) y almacénalas en un array. 
+
+Usando los datos contenidos en el array, calcula la temperatura media, la máxima y la mínima. 
+
+Visualiza la información en forma de gráfico de barras. Por ejemplo:
+
+```
+ 0  ***************  15.0
+ 1  ***************  15.2
+ 2  ***************  15.1
+ 3  ***************  15.2
+ 4  ***************  15.1
+ 5  ***************  15.1
+ 6  **************  14.9  --> MIN
+ 7  ****************  16.1
+ 8  ****************  16.5
+ 9  *****************  17.2
+10  *******************  19.5
+11  ********************  20.0
+12  **********************  22.1
+13  ***********************  23.3
+14  *************************  25.2
+15  **************************  26.3  --> MAX
+16  *************************  25.9
+17  *************************  25.8
+18  ************************  24.2
+19  ************************  24.1
+20  ********************  20.7
+21  *******************  19.6
+22  *****************  17.3
+23  ****************  16.5
+Media: 19.4
+```
