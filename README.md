@@ -15,7 +15,7 @@
     - [2.1. Administradores y vendedores](#21-administradores-y-vendedores)
 
 - [3. Colecciones](#3-colecciones)
-    - [3.1 - Ticket](./01_ticket/).
+    - [3.1 - Ticket](#31-ticket).
     - [3.2 - Empresas y empleados](./02_empresa_empleado/).
     - [3.3 - Alumnos y asignaturas](./03_alumno_asignatura/).
     - [3.4 - Cuenta bancaria](./04_cuenta_bancaria/).
@@ -29,11 +29,11 @@
 
 ## 1. Arreglos
 
-### 1.1 Orden inverso
+### 1.1. Orden inverso
 
 Leer 10 datos numéricos y mostrarlos en orden inverso
 
-### 1.2 Buscar mayores
+### 1.2. Buscar mayores
 
 Leer un entero y luego una lista de 20 enteros. Guardar los mayores al número inicial y mostrarlos al final  
 
@@ -126,6 +126,50 @@ Usar un List de tipo empleado para resolver este ejercicio.
 
 ## 3. Colecciones
 
+### 3.1 Ticket
 
+Diseña el diagrama de clases y escribe el programa para almacenar un ticket de supermercado, mediante las clases `Ticket` y `LineaTicket`.
 
+El usuario introduce el nombre del producto, el precio por unidad y el número de unidades, sin límite, hasta que nos responda que ha terminado.
+
+El programa sacará en pantalla el listado con el nombre de cada producto, las unidades vendidas y el precio total. 
+
+Además, mostrará el total que resulte de sumar todas las líneas del ticket.
+
+### 3.2. Empresas y empleados
+
+Queremos construir una aplicación que permita almacenar la información relevante sobre empresas y sus empleados, tal como aparecen en el siguiente diagrama de clases:
+
+<img src="2.2_empresa_empleado.png" width="500" />
+
+El programa mostrará un menú como el siguiente:
+
+1. Crear nueva empresa.
+2. Añadir empleado a empresa ya existente.
+3. Listado de empresas.
+4. Listado detallado de empresas y empleados.
+5. Salir
+
+El programa principal pedirá al usuario todos los datos necesarios y creará los objetos que hagan falta.
+
+> NOTA: No hay límite en el número de empresas ni de empleados.
+
+### 3.3. Alumnos y asignaturas
+
+Queremos construir una aplicación que permita almacenar la información relevante sobre alumnos y las asignaturas en las que están matriculados, tal como aparecen en el siguiente diagrama de clases:
+
+<img src="3.3_alumno_asignatura.png" width="500" />
+
+El programa mostrará un menú como el siguiente:
+
+1. Crear nuevo alumno.
+2. Crear nueva asignatura.
+3. Matricular alumno en asignatura.
+4. Listado de alumnos matriculados en una asignatura.
+5. Listado de asignaturas en las que está matriculado un alumno y total de horas.
+6. Salir
+
+El programa principal pedirá al usuario todos los datos necesarios y creará los objetos necesarios.
+
+> NOTA: No hay límite en el número de alumnos y asignaturas que podemos almacenar.
 
