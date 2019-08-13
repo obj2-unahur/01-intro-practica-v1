@@ -15,9 +15,9 @@
     - [2.1 - Administradores y vendedores](#21-administradores-y-vendedores)
 
 - [3. Colecciones](#3-colecciones)
-    - [3.1 - Ticket](#31-ticket).
-    - [3.2 - Empresas y empleados](./02_empresa_empleado/).
-    - [3.3 - Alumnos y asignaturas](./03_alumno_asignatura/).
+    - [3.1 - Ticket](#31---ticket).
+    - [3.2 - Empresas y empleados](#32---empresa-empleado).
+    - [3.3 - Alumnos y asignaturas](#33---alumno-asignatura).
     - [3.4 - Cuenta bancaria](./04_cuenta_bancaria/).
     - [3.5 - Personas](./05_personas/).
     - [3.6 - Contactos de Whatsapp](./06_whatsapp/).
@@ -111,7 +111,7 @@ int aleatorio = r.nextInt(100);
 
 ### 2.1 - Administradores y vendedores
 
-![Diagrama](./img/Ej03-DiagramaClases.png)
+![Diagrama](src/main/resources/2.1_administrativo_vendedor.png)
 
 De acuerdo al diagrama de clases resolver:
 
@@ -140,7 +140,7 @@ Además, mostrará el total que resulte de sumar todas las líneas del ticket.
 
 Queremos construir una aplicación que permita almacenar la información relevante sobre empresas y sus empleados, tal como aparecen en el siguiente diagrama de clases:
 
-<img src="src/main/java/resources/3.2_empresa_empleado.png" width="500" />
+<img src="src/main/resources/3.2_empresa_empleado.png" width="500" />
 
 El programa mostrará un menú como el siguiente:
 
@@ -158,7 +158,7 @@ El programa principal pedirá al usuario todos los datos necesarios y creará lo
 
 Queremos construir una aplicación que permita almacenar la información relevante sobre alumnos y las asignaturas en las que están matriculados, tal como aparecen en el siguiente diagrama de clases:
 
-<img src="3.3_alumno_asignatura.png" width="500" />
+<img src="src/main/resources/3.3_alumno_asignatura.png" width="500" />
 
 El programa mostrará un menú como el siguiente:
 
