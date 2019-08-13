@@ -1,4 +1,4 @@
-# guia-ejercicios-java
+# Guida de ejercicios de Java
 
 **Ejercicio 1**
 
@@ -28,7 +28,7 @@ Usar un Array de tipo empleado para resolver este ejercicio.
 
 Resolver los ejercicios 2 y 3 utilizando ArrayList en lugar de arrays.
 
-# Ejercicio 5 - Temperaturas del día
+**Ejercicio 5 - Temperaturas del día**
 
 Pide al usuario las temperaturas de un día (un valor cada hora durante 24 horas) y almacénalas en un array. 
 
@@ -64,7 +64,7 @@ Visualiza la información en forma de gráfico de barras. Por ejemplo:
 Media: 19.4
 ```
 
-# Ejercicio 6 - Lista de clase
+**Ejercicio 6 - Lista de clase**
 
 Pide al usuario los nombres y apellidos de todos tus compañeros de clase y almacénalos en un array.
 
@@ -72,7 +72,7 @@ Después pídele usuario una letra y muestra aquellos alumnos cuyo nombre empiec
 
 > Nota: El programa termina cuando se escriba `FIN` como búsqueda.
 
-# Ejercicio 7 - Contar letras
+**Ejercicio 7 - Contar letras**
 
 Realizar un programa que cuente el número de veces que aparece cada una de las letras del [alfabeto](https://es.wikipedia.org/wiki/Ortograf%C3%ADa_del_espa%C3%B1ol) en un texto introducido por el usuario.
 
@@ -82,13 +82,13 @@ Después se mostrará el resultado en pantalla mediante la función `visualizarR
 
 > Nota: Recordad que para acceder a los caracteres individuales de un `String` disponemos del método `.charAt()`.
 
-# Ejercicio 8 - Matriz 3x3
+**Ejercicio 8 - Matriz 3x3**
 
 Crea una matriz de 3x3 elementos pidiendo los valores al usuario. Después, muestra el contenido de la matriz por pantalla.
 
 Para facilitar la visualización es recomendable usar la función [`System.out.format()`](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
 
-# Ejercicio 10 - Matriz 10x10
+**Ejercicio 10 - Matriz 10x10**
 
 Rellena una matriz de 10x10 con valores aleatorios y muéstrala en pantalla.
 
