@@ -3,16 +3,16 @@
 <!-- TOC depthFrom:2 -->
 
 - [1. Arreglos](#1-arreglos)
-    - [1.1. Orden inverso](#11-orden-inverso)
-    - [1.2. Buscar mayores](#12-buscar-mayores)
-    - [1.3. Gráfico de temperaturas](#13-gráfico-de-temperaturas)
-    - [1.4. Busqueda de nombres](#14-busqueda-de-nombres)
-    - [1.5. Contar letras](#15-contar-letras)
-    - [1.6. Matriz 3x3](#16-matriz-3x3)
-    - [1.7. Matriz 10x10](#17-matriz-10x10)
+    - [1.1 - Orden inverso](#11-orden-inverso)
+    - [1.2 - Buscar mayores](#12-buscar-mayores)
+    - [1.3 - Gráfico de temperaturas](#13-gráfico-de-temperaturas)
+    - [1.4 - Busqueda de nombres](#14-busqueda-de-nombres)
+    - [1.5 - Contar letras](#15-contar-letras)
+    - [1.6 - Matriz 3x3](#16-matriz-3x3)
+    - [1.7 - Matriz 10x10](#17-matriz-10x10)
 
 - [2. Clases](#2-clases)
-    - [2.1. Administradores y vendedores](#21-administradores-y-vendedores)
+    - [2.1 - Administradores y vendedores](#21-administradores-y-vendedores)
 
 - [3. Colecciones](#3-colecciones)
     - [3.1 - Ticket](#31-ticket).
@@ -29,15 +29,15 @@
 
 ## 1. Arreglos
 
-### 1.1. Orden inverso
+### 1.1 - Orden inverso
 
 Leer 10 datos numéricos y mostrarlos en orden inverso
 
-### 1.2. Buscar mayores
+### 1.2 - Buscar mayores
 
 Leer un entero y luego una lista de 20 enteros. Guardar los mayores al número inicial y mostrarlos al final  
 
-### 1.3 Gráfico de temperaturas
+### 1.3 - Gráfico de temperaturas
 
 Pide al usuario las temperaturas de un día (un valor cada hora durante 24 horas) y almacénalas en un array. 
 
@@ -81,7 +81,7 @@ Después pídele usuario una letra y muestra aquellos alumnos cuyo nombre empiec
 
 > Nota: El programa termina cuando se escriba `FIN` como búsqueda.
 
-### 1.5 Contar letras
+### 1.5 - Contar letras
 
 Realizar un programa que cuente el número de veces que aparece cada una de las letras del [alfabeto](https://es.wikipedia.org/wiki/Ortograf%C3%ADa_del_espa%C3%B1ol) en un texto introducido por el usuario.
 
@@ -91,13 +91,13 @@ Después se mostrará el resultado en pantalla mediante la función `visualizarR
 
 > Nota: Recordad que para acceder a los caracteres individuales de un `String` disponemos del método `.charAt()`.
 
-### 1.6 Matriz 3x3
+### 1.6 - Matriz 3x3
 
 Crea una matriz de 3x3 elementos pidiendo los valores al usuario. Después, muestra el contenido de la matriz por pantalla.
 
 Para facilitar la visualización es recomendable usar la función [`System.out.format()`](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
 
-### 1.7 Matriz 10x10
+### 1.7 - Matriz 10x10
 
 Rellena una matriz de 10x10 con valores aleatorios y muéstrala en pantalla.
 
@@ -109,7 +109,7 @@ int aleatorio = r.nextInt(100);
 ```
 ## 2. Clases
 
-### 2.1 Administradores y vendedores
+### 2.1 - Administradores y vendedores
 
 ![Diagrama](./img/Ej03-DiagramaClases.png)
 
@@ -126,7 +126,7 @@ Usar un List de tipo empleado para resolver este ejercicio.
 
 ## 3. Colecciones
 
-### 3.1 Ticket
+### 3.1 - Ticket
 
 Diseña el diagrama de clases y escribe el programa para almacenar un ticket de supermercado, mediante las clases `Ticket` y `LineaTicket`.
 
@@ -136,11 +136,11 @@ El programa sacará en pantalla el listado con el nombre de cada producto, las u
 
 Además, mostrará el total que resulte de sumar todas las líneas del ticket.
 
-### 3.2. Empresas y empleados
+### 3.2 - Empresas y empleados
 
 Queremos construir una aplicación que permita almacenar la información relevante sobre empresas y sus empleados, tal como aparecen en el siguiente diagrama de clases:
 
-<img src="2.2_empresa_empleado.png" width="500" />
+<img src="src/main/java/resources/2.2_empresa_empleado.png" width="500" />
 
 El programa mostrará un menú como el siguiente:
 
@@ -154,7 +154,7 @@ El programa principal pedirá al usuario todos los datos necesarios y creará lo
 
 > NOTA: No hay límite en el número de empresas ni de empleados.
 
-### 3.3. Alumnos y asignaturas
+### 3.3 - Alumnos y asignaturas
 
 Queremos construir una aplicación que permita almacenar la información relevante sobre alumnos y las asignaturas en las que están matriculados, tal como aparecen en el siguiente diagrama de clases:
 
