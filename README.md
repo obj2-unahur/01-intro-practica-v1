@@ -2,8 +2,8 @@
 
 <!-- TOC depthFrom:2 -->
 
-- [1. Arreglos](#1-Arreglos)
-    - [1.1. Ejercicio 1](#Ejercicio-1.1)
+- [1. Arreglos](#1-arreglos)
+    - [1.1. Orden inverso](#1.1-orden-inverso)
     - [1.2. Ejercicio 2](#Ejercicio-1.2)
     - [1.3. Ejercicio 3](#Ejercicio-1.3)
     - [1.4. Ejercicio 4](#Ejercicio-1.4)
@@ -27,21 +27,17 @@
     - [1.8. Ejercicio 8](#Ejercicio-1.8)
 <!-- /TOC -->
 
-## 1-Arreglos
+## 1. Arreglos
 
-### Ejercicio 1.1
+### 1.1 Orden inverso
 
 Leer 10 datos numéricos y mostrarlos en orden inverso
 
-### Ejercicio 2.1
+### 2.1 Buscar mayores
 
 Leer un entero y luego una lista de 20 enteros. Guardar los mayores al número inicial y mostrarlos al final  
 
-### Ejercicio 3.1
-
-Resolver los ejercicios 2 y 3 utilizando ArrayList en lugar de arrays.
-
-### Ejercicio 4.1
+### 3.1 Gráfico de temperaturas
 
 Pide al usuario las temperaturas de un día (un valor cada hora durante 24 horas) y almacénalas en un array. 
 
@@ -77,7 +73,7 @@ Visualiza la información en forma de gráfico de barras. Por ejemplo:
 Media: 19.4
 ```
 
-### Ejercicio 5.1
+### 4.1 Busqueda de nombres
 
 Pide al usuario los nombres y apellidos de todos tus compañeros de clase y almacénalos en un array.
 
@@ -85,7 +81,7 @@ Después pídele usuario una letra y muestra aquellos alumnos cuyo nombre empiec
 
 > Nota: El programa termina cuando se escriba `FIN` como búsqueda.
 
-### Ejercicio 6.1
+### 5.1 Contas letras
 
 Realizar un programa que cuente el número de veces que aparece cada una de las letras del [alfabeto](https://es.wikipedia.org/wiki/Ortograf%C3%ADa_del_espa%C3%B1ol) en un texto introducido por el usuario.
 
@@ -95,13 +91,13 @@ Después se mostrará el resultado en pantalla mediante la función `visualizarR
 
 > Nota: Recordad que para acceder a los caracteres individuales de un `String` disponemos del método `.charAt()`.
 
-### Ejercicio 7.1
+### 6.1 Matriz 3x3
 
 Crea una matriz de 3x3 elementos pidiendo los valores al usuario. Después, muestra el contenido de la matriz por pantalla.
 
 Para facilitar la visualización es recomendable usar la función [`System.out.format()`](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
 
-### Ejercicio 8.1
+### 7.1 Matriz 10x10
 
 Rellena una matriz de 10x10 con valores aleatorios y muéstrala en pantalla.
 
@@ -111,9 +107,9 @@ Como recordatorio, para generar números aleatorios entre 0 y 100 podemos usar:
 Random r = new Random();
 int aleatorio = r.nextInt(100);
 ```
-## 2-Clases
+## 2. Clases
 
-### Ejercicio 3.1
+### 2.1 Administradores y vendedores
 
 ![Diagrama](./img/Ej03-DiagramaClases.png)
 
@@ -126,4 +122,10 @@ El sueldo debe calcularse en el método getSueldo() de la siguiente forma:
 * Si es administrativo: sueldoBase \* ((hsExtra \* 1.5)+hsMes) / hsMes
 * Si es vendedor: sueldoBase + (porcenComision\*totalVtas/100)
 
-Usar un Array de tipo empleado para resolver este ejercicio.
+Usar un List de tipo empleado para resolver este ejercicio.
+
+## 3. Colecciones
+
+
+
+
