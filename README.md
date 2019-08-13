@@ -4,13 +4,12 @@
 
 - [1. Arreglos](#1-arreglos)
     - [1.1. Orden inverso](#11-orden-inverso)
-    - [1.2. Ejercicio 2](#12-buscar-mayores)
-    - [1.3. Ejercicio 3](#13-gráfico-de-temperaturas)
-    - [1.4. Ejercicio 4](#14-busqueda-de0-nombres)
-    - [1.5. Ejercicio 5](#15-contar-letras)
-    - [1.6. Ejercicio 6](#16-matriz-3x3)
-    - [1.7. Ejercicio 7](#17-matriz-10x10)
-
+    - [1.2. Buscar mayores](#12-buscar-mayores)
+    - [1.3. Gráfico de temperaturas](#13-gráfico-de-temperaturas)
+    - [1.4. Busqueda de nombres](#14-busqueda-de-nombres)
+    - [1.5. Contar letras](#15-contar-letras)
+    - [1.6. Matriz 3x3](#16-matriz-3x3)
+    - [1.7. Matriz 10x10](#17-matriz-10x10)
 
 - [2. Clases](#2-Clases)
     - [2.1. Ejercicio 1](#21-)
