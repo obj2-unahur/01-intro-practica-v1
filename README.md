@@ -140,7 +140,7 @@ Además, mostrará el total que resulte de sumar todas las líneas del ticket.
 
 Queremos construir una aplicación que permita almacenar la información relevante sobre empresas y sus empleados, tal como aparecen en el siguiente diagrama de clases:
 
-<img src="2.2_empresa_empleado.png" width="500" />
+<img src="src/main/java/resources/2.2_empresa_empleado.png" width="500" />
 
 El programa mostrará un menú como el siguiente:
 
