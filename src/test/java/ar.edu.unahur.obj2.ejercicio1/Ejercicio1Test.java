@@ -15,10 +15,11 @@ public class Ejercicio1Test {
     }
 
     @Test
-    public void testMain() {
+    public void testOrdenar() {
         int[] retorno =  e1.ordenar(new int[] {9, 7, 8, 1, 2, 6, 4, 3, 5});
         assertEquals(retorno,  new int[] {1, 2,  3, 4, 5, 6, 7, 8, 9});
     }
+
 
 
 
