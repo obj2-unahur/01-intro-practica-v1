@@ -1,5 +1,7 @@
 package ar.edu.unahur.obj2.ejercicio21;
 
+import java.util.Objects;
+
 public class Vendedor extends Empleado {
 
     private float porcentaje;
@@ -22,6 +24,20 @@ public class Vendedor extends Empleado {
     @Override
     public float getSueldo() {
         return getSueldoBase() + (porcentaje*totalVenta/100);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Vendedor)) return false;
+        Vendedor vendedor = (Vendedor) o;
+        return Float.compare(vendedor.getPorcentaje(), getPorcentaje()) == 0 &&
+                Float.compare(vendedor.getTotalVenta(), getTotalVenta()) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getPorcentaje(), getTotalVenta());
     }
 
     @Override
