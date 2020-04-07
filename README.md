@@ -18,14 +18,7 @@
     - [3.1 - Ticket](#31---ticket).
     - [3.2 - Empresas y empleados](#32---empresa-empleado).
     - [3.3 - Alumnos y asignaturas](#33---alumno-asignatura).
-    - [3.4 - Cuenta bancaria](./04_cuenta_bancaria/).
-    - [3.5 - Personas](./05_personas/).
-    - [3.6 - Contactos de Whatsapp](./06_whatsapp/).
-    - [3.7 - Alarma](./07_alarma/).
-    - [3.8 - Empresas y empleados (con herencia)](./08_empresa_empleado/).
-    - [3.10 - Averías](./09_averias/).
-    - [3.11 - Alumnos y asignaturas 2.0](./10_alumno_asignatura/).
-<!-- /TOC -->
+   
 
 ## 1. Arreglos
 
