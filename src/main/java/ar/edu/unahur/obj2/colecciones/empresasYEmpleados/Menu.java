@@ -35,6 +35,17 @@ public class Menu {
         }
     }
 
+    public void imprimirMenu() {
+        System.out.println("Bienvenido!");
+        System.out.println("Que desea realizar?:");
+        System.out.println("1- Crear una nueva empresa.");
+        System.out.println("2- Añadir empleado a empresa ya existente.");
+        System.out.println("3- Listado de empresas.");
+        System.out.println("4- Listado detallado de empresas y empleados.");
+        System.out.println("5- Salir.");
+        System.out.print(">>> ");
+    }
+
     private Empresa buscarEmpresaEnLista(String nombreEmpresa) {
         List<Empresa> empresa = listaEmpresas.stream()
                 .filter(e -> e.getNombre().equals(nombreEmpresa))

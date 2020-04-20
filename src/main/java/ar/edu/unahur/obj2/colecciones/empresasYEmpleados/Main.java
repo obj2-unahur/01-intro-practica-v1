@@ -17,19 +17,14 @@ public class Main {
         Scanner ingresoFechaContrato = new Scanner(System.in);
 
         while(!finalizar) {
-            System.out.println("Bienvenido!");
-            System.out.println("Que desea realizar?:");
-            System.out.println("1- Crear una nueva empresa.");
-            System.out.println("2- Añadir empleado a empresa ya existente.");
-            System.out.println("3- Listado de empresas.");
-            System.out.println("4- Listado detallado de empresas y empleados.");
-            System.out.println("5- Salir.");
-            System.out.print(">>>");
+            menu.imprimirMenu();
 
             int eleccion = ingresoSeleccion.nextInt();
 
             switch(eleccion) {
                 case 1:
+                    System.out.println("-- CREAR NUEVA EMPRESA --");
+
                     System.out.print("Ingrese el nombre de la empresa: ");
                     String nombreEmpresa = ingresoNombreEmpresa.nextLine();
 
@@ -39,7 +34,7 @@ public class Main {
                     menu.crearNuevaEmpresa(nombreEmpresa, anioFundacion);
                     break;
                 case 2:
-                    System.out.println("Agregar empleado:");
+                    System.out.println("-- AGREGAR EMPLEADO --");
 
                     System.out.println("Ingrese el nombre de la empresa donde desea agregarlo: ");
                     String empresa = ingresoEmpresa.nextLine();
@@ -59,11 +54,11 @@ public class Main {
                     menu.agregarEmpleado(empresa, nombreEmpleado, apellidoEmpleado, anioDeNacimiento, fechaContratacion);
                     break;
                 case 3:
-                    System.out.println("--Listado de empresas registradas-- ");
+                    System.out.println("-- LISTADO DE EMPRESAS REGISTRADAS -- ");
                     menu.listarEmpresas();
                     break;
                 case 4:
-                    System.out.println("--Listado detallado de empresas y empleados--");
+                    System.out.println("-- LISTADO DETALLADO DE EMPRESAS Y EMPLEADOS --");
                     menu.listadoDetalladoDeEmpresasYEmpleados();
                     break;
                 case 5:
